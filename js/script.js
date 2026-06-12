@@ -248,6 +248,10 @@ function updateImageCountLabel() {
 function translateWord(word) {
 	var translations = {
 		example: "Example",
+		sfw: "SFW",
+		nsfw: "NSFW",
+		self: "Personal",
+		gift: "Gifted",
 	};
 	if (word in translations) {
 		return translations[word];
