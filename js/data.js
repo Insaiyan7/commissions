@@ -9,10 +9,10 @@ var data = {
 			art_url: null,
 			desc: "Do not delete this. You can use this to set the order the tags show up in the dropdown.",
 			date_str: "Beginning of Time",
-			tags: [sfw, nsfw, self, gift],
+			tags: ["sfw", "nsfw", "self", "gift"],
 			hidden: true
 		},
-{
+		{
 			src: ["https://insaiyan.cattail.cafe/Sample.png"],
 			thumbnail: "https://insaiyan.cattail.cafe/Sample.png",
 			title: "Sample",
