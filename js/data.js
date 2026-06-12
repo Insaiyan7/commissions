@@ -12,6 +12,18 @@ var data = {
 			tags: [],
 			hidden: true
 		},
+{
+			src: ["https://insaiyan.cattail.cafe/Sample.png"],
+			thumbnail: "https://insaiyan.cattail.cafe/Sample.png",
+			title: "Sample",
+			artist: "Me",
+			artist_url: "https://insaiyan.cattail.cafe/",
+			art_url: "https://insaiyan.cattail.cafe/Sample.png",
+			desc: "The first image in my server",
+			date_str: "",
+			tags: [""],
+			hidden: false
+		},
 		{
 			src: [""],
 			thumbnail: "",
@@ -23,18 +35,6 @@ var data = {
 			date_str: "",
 			tags: [""],
 			hidden: true
-		},
-		{
-			src: ["https://insaiyan.cattail.cafe/Sample.png"],
-			thumbnail: "https://insaiyan.cattail.cafe/Sample.png",
-			title: "Sample",
-			artist: "Me",
-			artist_url: "https://insaiyan.cattail.cafe/",
-			art_url: "https://insaiyan.cattail.cafe/Sample.png",
-			desc: "The first image in my server",
-			date_str: "",
-			tags: [""],
-			hidden: false
 		}
 	]
 };
