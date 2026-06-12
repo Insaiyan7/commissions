@@ -503,7 +503,7 @@ function showDefaultImages() {
 		var tags_arr = images[i].tags;
 
 		var search_str = document.getElementById("search-bar").value.toLowerCase();
-		if (tags_arr.includes("sfw")) {
+		if (tags_arr.length == 2 && tags_arr.includes("sfw") && tags_arr.includes("self")) {
 			searchCheck(search_str, i, images);
 		}
 		else {
