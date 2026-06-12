@@ -9,7 +9,7 @@ var data = {
 			art_url: null,
 			desc: "Do not delete this. You can use this to set the order the tags show up in the dropdown.",
 			date_str: "Beginning of Time",
-			tags: [],
+			tags: [sfw, nsfw, self, gift],
 			hidden: true
 		},
 {
@@ -21,7 +21,7 @@ var data = {
 			art_url: "https://insaiyan.cattail.cafe/Sample.png",
 			desc: "The first image in my server",
 			date_str: "",
-			tags: [""],
+			tags: ["sfw", "self"],
 			hidden: false
 		},
 		{
